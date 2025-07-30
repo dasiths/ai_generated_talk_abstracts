@@ -19,6 +19,7 @@ This is also explained by the unreliable nature of LLMs as described here too: h
 This is where the context engineering comes in to play.
 - https://rlancemartin.github.io/2025/06/23/context_engineering/
 - https://www.philschmid.de/context-engineering
+- https://www.dbreunig.com/2025/06/26/how-to-fix-your-context.html
 
 But context engineering itself requires deep domain understanding to be effective, as explained here: https://medium.com/@springrod/context-engineering-needs-domain-understanding-b4387e8e4bf8
 
@@ -43,23 +44,25 @@ This post highlights why operator skills still matters. https://ferd.ca/the-gap-
 - **Two Key Dimensions**: Open vs. closed solution spaces, implied vs. provided context
 - **AI's Limitations**: Senior-level implementation, junior-level design decisions
 - **The Sweet Spot**: When AI works well vs. when it struggles
+- **Common Failure Modes**: Poisoning (hallucinations), Distraction (over-focus), Confusion (irrelevant info), Clash (conflicting info)
 - **Industry Reality Check**: Technology leaders warning about limitations
 
 ### 2. Context Engineering: The Solution Framework (6 minutes)
 - **Definition**: "The art and science of filling the context window with just the right information at the right time"
-- **Four Strategies** (quick overview):
-  - Write Context (external memory)
-  - Select Context (smart retrieval)
-  - Compress Context (efficient summaries)
-  - Isolate Context (separation of concerns)
-- **From Cheap Demo to Magical Product**: How context quality transforms effectiveness
+- **Four Practical Tactics**:
+  - **Write Context**: External memory (scratchpad pattern, context offloading)
+  - **Select Context**: Smart retrieval (RAG + tool loadout like gaming weapon selection, research shows 30+ tools create confusion)
+  - **Compress Context**: Efficient summaries (pruning + summarization)
+  - **Isolate Context**: Separation of concerns (context quarantine in dedicated threads)
 
 ### 3. The Breadcrumb Protocol: Context Engineering in Action (5 minutes)
 - **The Three Principles**:
   - Structured Planning & Task Management
-  - Centralized Knowledge Context
+  - Centralized Knowledge Context  
   - Living Documentation & Shared Understanding
-- **Live Demo**: Quick walkthrough of `.github/.copilot/` structure and breadcrumb workflow
+- **Visual Walkthrough**: Screenshots of `.github/.copilot/` structure and breadcrumb workflow
+- **Context Engineering in Practice**: How breadcrumbs implement the four tactics - context offloading, smart selection, compression, and quarantine
+- **Research Evidence**: Studies show 44% improvement with smart tool selection ([Less is More paper](https://arxiv.org/abs/2411.15399)), 54% gains with context offloading ([Anthropic research](https://www.anthropic.com/engineering/claude-think-tool))
 - **Results**: Contextual continuity, team alignment, reduced friction
 
 ### Conclusion: Why Human Skills Still Matter (1 minute)
