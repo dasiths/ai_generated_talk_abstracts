@@ -66,6 +66,15 @@ Development of a presentation about AI-assisted engineering, context engineering
 - **Invisible Labor**: Human effort in making AI work effectively gets erased from the narrative
 - **Design Problems**: Current AI tools poorly designed for actual human workflows
 
+#### 8. **Drew Breunig's "How to Fix Your Context"** (https://www.dbreunig.com/2025/06/26/how-to-fix-your-context.html)
+**Key Insights:**
+- **Six Context Management Tactics**: RAG, Tool Loadout, Context Quarantine, Context Pruning, Context Summarization, Context Offloading
+- **Context Failure Types**: Poisoning (hallucinations), Distraction (over-focus), Confusion (irrelevant info), Clash (conflicting info)
+- **Gaming Metaphor**: Tool loadout like selecting weapons for a gaming level
+- **Research Evidence**: 44% improvement with dynamic tool selection (Less is More paper), 54% gains with context offloading (Anthropic)
+- **Practical Thresholds**: 30+ tools create confusion, 100k+ tokens trigger distraction
+- **Core Principle**: "Garbage in, garbage out" - every token influences behavior
+
 ## Content Evolution & Key Decisions
 
 ### Topic Organization Evolution
@@ -174,6 +183,20 @@ Following discovery of Drew Breunig's "How to Fix Your Context" article, conduct
 - **Gaming Metaphors**: Tool loadout "like gaming weapon selection" for audience engagement
 - **Four Tactics Framework**: Write, Select, Compress, Isolate Context - directly addressing matrix problems
 
+### Final Workflow Optimization & Documentation
+After completing the core talk structure, conducted final optimization and created comprehensive documentation:
+
+#### **Flow Refinement:**
+- **Eliminated Redundancy**: Removed "Garbage in, garbage out" as separate tactic (already implied in problem framework)
+- **Streamlined Timing**: Four tactics at 1.5 minutes each for better pacing
+- **Source Attribution**: Added direct links to research papers for credibility
+
+#### **Breadcrumb Creation:**
+- **Context Rehydration File**: Created `breadcrumb.md` with complete talk state
+- **Research Hub**: All 10 source URLs included for future reference
+- **Agent Handoff**: Structured format for seamless conversation continuation
+- **Decision Documentation**: Key choices and rationale preserved for future modifications
+
 ### Final Talk Title Evolution
 - **Final Choice**: "Vibe Coding is Dead. Long Live Context Engineering."
 - **Rationale**: Provocative, memorable, clearly positions the evolution from current hype to systematic approach
@@ -182,6 +205,7 @@ Following discovery of Drew Breunig's "How to Fix Your Context" article, conduct
 ## Key Files Created/Modified
 - `Narrative.md` - Main presentation outline and abstract (multiple iterations)
 - `conversation_summary.md` - This comprehensive summary document
+- `breadcrumb.md` - Context rehydration file with complete talk state and all source URLs
 
 ## Lessons Learned
 1. **Style Consistency Matters**: Technical content delivery is significantly enhanced when it matches the presenter's established voice and personality
