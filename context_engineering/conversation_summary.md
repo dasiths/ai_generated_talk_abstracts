@@ -198,9 +198,10 @@ After completing the core talk structure, conducted final optimization and creat
 - **Decision Documentation**: Key choices and rationale preserved for future modifications
 
 ### Final Talk Title Evolution
-- **Final Choice**: "Vibe Coding is Dead. Long Live Context Engineering."
-- **Rationale**: Provocative, memorable, clearly positions the evolution from current hype to systematic approach
-- **Style Alignment**: Matches user's tendency toward engaging, slightly contrarian titles
+- **Final Choice**: "Throw Away The Vibes: Context Engineering Is All You Need"
+- **Rationale**: Combines provocative "throw away the vibes" with clever technical reference to "Attention is All You Need" paper, colon provides clear separation
+- **Style Alignment**: Casual, irreverent tone while maintaining technical sophistication
+- **Flow Benefits**: Sets up vibe coding as problem, context engineering as solution, matches opening structure
 
 ## Key Files Created/Modified
 - `Narrative.md` - Main presentation outline and abstract (multiple iterations)

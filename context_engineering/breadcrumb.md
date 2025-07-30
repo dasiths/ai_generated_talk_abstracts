@@ -3,7 +3,7 @@
 ## Current State & Understanding
 
 ### **Talk Overview**
-- **Title**: "Vibe Coding is Dead. Long Live Context Engineering."
+- **Title**: "Throw Away The Vibes: Context Engineering Is All You Need"
 - **Format**: 20-minute conference presentation
 - **Core Thesis**: Context engineering, not prompt engineering, is the key to effective AI-assisted development
 - **Target Audience**: Developers working with AI coding assistants

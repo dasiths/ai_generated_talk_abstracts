@@ -1,4 +1,4 @@
-# Vibe Coding is Dead. Long Live Context Engineering.
+# Throw Away The Vibes: Context Engineering Is All You Need
 
 ## Introduction
 
