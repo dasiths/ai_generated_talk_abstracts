@@ -1,6 +1,6 @@
 # Narrative
 
-I'm a senior software engineer in the Dropbear crew which part of the ANZ engineering studio within Industry Solution Engeering (ISE) team here at Microsoft. I want to share some of my learnings working with large language models over the last 18+ months for code generation within a larger Hyper Velocity Engineering (HVE) initiative.
+I'm a senior software engineer in the "Dropbear" crew which part of the ANZ engineering studio within Industry Solution Engeering (ISE) team here at Microsoft. I want to share some of my learnings working with large language models over the last 18+ months for code generation within a larger Hyper Velocity Engineering (HVE) initiative.
 
 The industry as a whole has been figuring out how to harness the best out of LLMs for code generation since the eraly days of OpenAI's GPT 3.5. Coding agents wern't mainstream and using UX built for chat experiences had some key challenges that surfaced over that time.
 
@@ -59,9 +59,26 @@ One side effect of following this workflow was that each logical "coding session
 
 During this time I was presenting the effectiveness of the workflow and context engineering techniques to my peers and some teams outside my ISE organisation as well.
 
-I collaborated with an engineering team looking after Azure Service Insights (ASI) which is part of the Azure Kubernetes Service (AKS) eco-system to see the feasibility of this pattern within their existing large brownfield code base. Our initial findings were promising but the workflows needed some tuning to be effective in this brownfield envioronment which had years of implicit domain knowledge buried deep in code.
+I got the opportunity to collaborate with an engineering team looking after Azure Service Insights (ASI) which is part of the Azure Kubernetes Service (AKS) eco-system to see the feasibility of this pattern within their existing large brownfield code base. Our initial findings were promising but the workflows needed some tuning to be effective in this brownfield envioronment which had years of implicit domain knowledge buried deep in code.
 
 During the early months of 2025, GitHub Copilot didn't have extensive support for prompt files, chat modes or MCP tools and this made it difficult to implement context engineering workflows easily. There was clear evidence to suggest that this structured workflow with breadcrumbs was giving far better results.
 
 This warranted further exploration and I also wanted to leverage the exciting experimental work related to HVE that some of the other teams within the ANZ region were carrying out. This was an awesome opportunity to collaborate and test those experimental workflows against a large brownfield production solution, callibrate them and ground them in the real world.
 
+Team "Taipan" were already carrying out HVE experiments during this time and were best placed to continue the exploration of the context engineering workflows with the ASI team.
+
+During this close collaboration effort the two teams were able to delivery a new feature while also simultaniously carrying out a major refactor of the code base to simplify the component model and cut down on tech debt. Proving that the AI assisted workflows when applied correctly with the proper use context engineering can be used for "real world" project that are complex.
+
+Here's a more concise version of the final section:
+
+## Evaluating The Experiment
+
+Context engineering was getting main stream as folks from ISE were carrying out experiments to evaluate the effectiveness of various workflows. As a part of this effort, two data scientists from ISE based in Netherlands (Ihar Shulhan and Leonard Herold) carried out an extensive evaluation of the breadcrumb workflow.
+
+The experiment revealed that context engineering isn't just about feeding more information to AI. it's about creating structured dialogue that builds shared understanding. Breadcrumb files became living documents capturing not just *what* was built, but *why*.
+
+Key benefits emerged from the evaluation:
+
+- **Enhanced Developer Autonomy**: Agents demonstrated significantly improved ability to progress through complex tasks with minimal intervention
+- **Accelerated Development Velocity**: The phased planning approach enabled faster development cycles, particularly for medium to large implementation tasks  
+- **Robust Context Preservation**: Breadcrumbs effectively maintained critical context across sessions and task switches, eliminating the need to restart from scratch
