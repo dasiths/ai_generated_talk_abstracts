@@ -79,7 +79,6 @@
   - **Confusion**: Inability to parse mixed signals
   - **Clash**: Contradictory information conflicts
 - **Industry Reality Check**: Microsoft Azure CTO and other leaders' warnings
-- **The Economic Impact**: Hidden costs of context misalignment
 
 #### 2. Context Engineering Foundations (8 minutes)
 - **Definition & Scope**: Context engineering vs. prompt engineering
