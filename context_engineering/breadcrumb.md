@@ -100,10 +100,10 @@ context_engineering/
 - **Development History**: See [`conversation_summary.md`](./conversation_summary.md) for complete audit trail
 
 ### **Research-Backed Claims Ready for Use**
-- "30+ tools create confusion" (research threshold)
-- "44% improvement with smart tool selection" (Less is More paper)
-- "54% gains with context offloading" (Anthropic research)
-- "10x cost difference" cached vs uncached tokens (Manus production data)
+- "30+ tools create confusion" (research threshold - Drew Breunig analysis)
+- "44% improvement with smart tool selection" ([Less is More paper](https://arxiv.org/abs/2411.15399))
+- "54% gains with context offloading" ([Anthropic research](https://www.anthropic.com/engineering/claude-think-tool))
+- "10x cost difference" cached vs uncached tokens ([Manus production data](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus))
 
 ### **Core Message**
 Context engineering is the systematic discipline that transforms AI coding from frustrating "vibe coding" into reliable, productive human-AI collaboration. The Breadcrumb Protocol demonstrates how structured workflows implement research-proven context management tactics to achieve measurable improvements in AI-assisted development.

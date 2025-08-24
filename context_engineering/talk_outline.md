@@ -40,7 +40,7 @@
   - Living Documentation & Shared Understanding
 - **Visual Walkthrough**: Screenshots of `.github/.copilot/` structure and breadcrumb workflow
 - **Context Engineering in Practice**: How breadcrumbs implement the four tactics - context offloading, smart selection, compression, and quarantine
-- **Research Evidence**: Studies show 44% improvement with smart tool selection ([Less is More paper](https://arxiv.org/abs/2411.15399)), 54% gains with context offloading ([Anthropic research](https://www.anthropic.com/engineering/claude-think-tool))
+- **Research Evidence**: 54% gains with context offloading ([Anthropic research](https://www.anthropic.com/engineering/claude-think-tool)) validate the breadcrumb approach
 - **Results**: Contextual continuity, team alignment, reduced friction
 
 #### Conclusion: Why Human Skills Still Matter (1 minute)
@@ -86,7 +86,7 @@
 - **The Four Core Tactics** (expanded):
   - **Write Context**: 
     - Scratchpad patterns and external memory
-    - Context offloading (54% performance gains)
+    - Context offloading (54% performance gains - [Anthropic Research](https://www.anthropic.com/engineering/claude-think-tool))
     - When and how to externalize knowledge
   - **Select Context**: 
     - RAG strategies and tool selection
@@ -100,7 +100,7 @@
     - Context quarantine in dedicated threads
     - Multi-agent architectures
     - Separation of concerns in practice
-- **Academic Research Evidence**: 44-54% performance improvements with systematic approaches
+- **Academic Research Evidence**: 44% improvement with smart tool selection ([Less is More paper](https://arxiv.org/abs/2411.15399)), 54% gains with context offloading ([Anthropic research](https://www.anthropic.com/engineering/claude-think-tool))
 
 #### 3. Production Lessons from Manus (10 minutes)
 - **Introduction to Manus**: Real-world AI agent system at scale
@@ -143,7 +143,7 @@
   - Real examples of context offloading and selection
   - Compression through structured summaries
   - Isolation through dedicated knowledge files
-- **Validation**: Research evidence and production results
+- **Validation**: Research evidence showing 54% gains with context offloading ([Anthropic research](https://www.anthropic.com/engineering/claude-think-tool)) validates the breadcrumb approach
 - **Technical Considerations**: Performance, maintenance, team adoption
 
 #### Conclusion: The Future of Human-AI Collaboration (2 minutes)
