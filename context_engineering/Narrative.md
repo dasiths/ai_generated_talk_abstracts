@@ -25,47 +25,21 @@ But context engineering itself requires deep domain understanding to be effectiv
 
 This post highlights why operator skills still matters. https://ferd.ca/the-gap-through-which-we-praise-the-machine.html
 
+The team at Manus has documented practical lessons from building production AI agents that validate many context engineering principles: https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus
+
 ## Key Themes
 
 1. **The Context Engineering Challenge**: The fundamental problem of context misalignment between developers and AI assistants
-2. **Why AI-Assisted Development Fails**: Understanding the constraint-context matrix and the gap between AI promises vs. reality
+2. **Why AI-Assisted Development Fails**: Understanding the constraint-context matrix and the gap between AI promises vs. reality  
 3. **Context Engineering as the Solution**: Moving from prompt engineering to systematic context management
-4. **The Enduring Role of Operator Skill**: Why human expertise, scaffolding, and steering remain essential
-5. **The Breadcrumb Protocol**: A concrete example of structured workflows that bridge the context gap
+4. **Production-Scale Context Engineering**: Real-world lessons from building AI agents at scale, including KV-cache optimization, stable context patterns, and error recovery strategies
+5. **The Enduring Role of Operator Skill**: Why human expertise, scaffolding, and steering remain essential
+6. **The Breadcrumb Protocol**: A concrete example of structured workflows that bridge the context gap
 
-## Talk Topic Outline (20 minutes total)
+## Talk Outlines
 
-### Opening: The Vibe Coding Problem (3 minutes)
-- **The Promise vs Reality**: AI coding tools promise magic, deliver frustration
-- **The Core Issue**: Context misalignment between developers and AI assistants
-- **Why This Matters**: Transition from "vibe coding" to systematic engineering
+**See detailed talk structures and timing in:** [`talk_outline.md`](./talk_outline.md)
 
-### 1. Why AI Coding Fails: The Constraint-Context Matrix (5 minutes)
-- **Two Key Dimensions**: Open vs. closed solution spaces, implied vs. provided context
-- **AI's Limitations**: Senior-level implementation, junior-level design decisions
-- **The Sweet Spot**: When AI works well vs. when it struggles
-- **Common Failure Modes**: Poisoning (hallucinations), Distraction (over-focus), Confusion (irrelevant info), Clash (conflicting info)
-- **Industry Reality Check**: Technology leaders warning about limitations
-
-### 2. Context Engineering: The Solution Framework (6 minutes)
-- **Definition**: "The art and science of filling the context window with just the right information at the right time"
-- **Four Practical Tactics**:
-  - **Write Context**: External memory (scratchpad pattern, context offloading)
-  - **Select Context**: Smart retrieval (RAG + tool loadout like gaming weapon selection, research shows 30+ tools create confusion)
-  - **Compress Context**: Efficient summaries (pruning + summarization)
-  - **Isolate Context**: Separation of concerns (context quarantine in dedicated threads)
-
-### 3. The Breadcrumb Protocol: Context Engineering in Action (5 minutes)
-- **The Three Principles**:
-  - Structured Planning & Task Management
-  - Centralized Knowledge Context  
-  - Living Documentation & Shared Understanding
-- **Visual Walkthrough**: Screenshots of `.github/.copilot/` structure and breadcrumb workflow
-- **Context Engineering in Practice**: How breadcrumbs implement the four tactics - context offloading, smart selection, compression, and quarantine
-- **Research Evidence**: Studies show 44% improvement with smart tool selection ([Less is More paper](https://arxiv.org/abs/2411.15399)), 54% gains with context offloading ([Anthropic research](https://www.anthropic.com/engineering/claude-think-tool))
-- **Results**: Contextual continuity, team alignment, reduced friction
-
-### Conclusion: Why Human Skills Still Matter (1 minute)
-- **The Hidden Truth**: Effective AI requires extensive human scaffolding and domain understanding
-- **The Future**: AI-assisted development with human expertise, not replacement
-- **Call to Action**: Start engineering your context systematically 
+**Available Formats**: 
+- **20-minute version**: Conference presentation covering core framework and Breadcrumb Protocol demo
+- **40-minute version**: Technical meetup format including deep dive into production lessons from Manus and expanded technical analysis 
