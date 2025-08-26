@@ -22,7 +22,7 @@
 - **Two Key Dimensions**: Open vs. closed solution spaces, implied vs. provided context [1]
 - **AI's Limitations**: Senior-level implementation, junior-level design decisions [1]
 - **The Sweet Spot**: When AI works well vs. when it struggles [1]
-- **Common Failure Modes**: Poisoning (hallucinations), Distraction (over-focus), Confusion (irrelevant info), Clash (conflicting info) [1]
+- **Common Failure Modes**: Poisoning (hallucinations), Distraction (over-focus), Confusion (irrelevant info), Clash (conflicting info) [2]
 - **Industry Reality Check**: Technology leaders warning about limitations [8]
 
 #### 2. Context Engineering: The Solution Framework (6 minutes)
@@ -73,7 +73,7 @@
   - **Two Dimensions**: Open vs. closed solution spaces × Implied vs. provided context
   - **AI Sweet Spot**: Closed solutions + Provided context
   - **Danger Zones**: When AI struggles and why
-- **Context Failure Modes** (detailed) [1]:
+- **Context Failure Modes** (detailed) [2]:
   - **Poisoning**: Hallucinations from poor context
   - **Distraction**: Over-focus on irrelevant details
   - **Confusion**: Inability to parse mixed signals
