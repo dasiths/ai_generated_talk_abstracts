@@ -91,10 +91,10 @@
     - RAG strategies and tool selection
     - The "tool loadout" gaming metaphor
     - Research threshold: 30+ tools create confusion
-  - **Compress Context** [2]: 
+  - **Compress Context** [2,11]: 
     - Intelligent summarization techniques
     - Pruning strategies that preserve critical information
-    - Reversible compression principles
+    - Reversible compression principles [11]
   - **Isolate Context** [2]: 
     - Context quarantine in dedicated threads
     - Multi-agent architectures
@@ -113,7 +113,7 @@
   - **Action Space Stability**: Consistent naming patterns for selective control
 - **File System as Unlimited Context** [11]:
   - **Beyond 128K+ Tokens**: When even large context windows aren't enough
-  - **Reversible Compression**: Preserve references, drop content
+  - **Reversible Compression** [11]: Preserve references, drop content
   - **Externalized Memory**: Teaching agents to read/write structured knowledge
 - **Attention Manipulation Through Recitation** [11]:
   - **The Todo.md Pattern**: Pushing objectives into recent attention
