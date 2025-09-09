@@ -59,7 +59,9 @@ One side effect of following this workflow was that each logical "coding session
 
 During this time I was presenting the effectiveness of the workflow and context engineering techniques to my peers and some teams outside my ISE organisation as well.
 
-I got the opportunity to collaborate with an engineering team looking after Azure Service Insights (ASI) which is part of the Azure Kubernetes Service (AKS) eco-system to see the feasibility of this pattern within their existing large brownfield code base. Our initial findings were promising but the workflows needed some tuning to be effective in this brownfield envioronment which had years of implicit domain knowledge buried deep in code.
+I worked on helping improve team readiness in the ANZ studio by working with the newly formed Cassowary crew upskill on context engineering and hyper velocity engineering practices. We trialled the breadcrumb protocol during this time and used it as a way to enable code generation activities in a structured manner. We had encouraging results and fine tuned the breadcrumb protocol during this period.
+
+I got the opportunity to collaborate with an internal engineering team looking after Azure Service Insights (ASI) which is part of the Azure Kubernetes Service (AKS) eco-system to see the feasibility of this pattern within their existing large brownfield code base. Our initial findings were promising but the workflows needed some tuning to be effective in this brownfield envioronment which had years of implicit domain knowledge buried deep in code.
 
 During the early months of 2025, GitHub Copilot didn't have extensive support for prompt files, chat modes or MCP tools and this made it difficult to implement context engineering workflows easily. There was clear evidence to suggest that this structured workflow with breadcrumbs was giving far better results.
 
@@ -69,7 +71,7 @@ Team "Taipan" were already carrying out HVE experiments during this time and wer
 
 During this close collaboration effort the two teams were able to delivery a new feature while also simultaniously carrying out a major refactor of the code base to simplify the component model and cut down on tech debt. Proving that the AI assisted workflows when applied correctly with the proper use context engineering can be used for "real world" project that are complex.
 
-Here's a more concise version of the final section:
+Around the same time period I was also collaborating with Bill Berry and Katrien De Graeve from the edge-ai-accelerator team to identify core priciples around context management and workflows to get the best out of GitHub Copilot in VSCode. There were a lot of experiments being carried out during this time and it helped me springboard off their learning as well. I was able to present some of these findings to Harald Kirschner from Microsoft VSCode product group and provide input to the effectiveness of task based planning and memory externalization for code generation activities using the Breadcrumb Protocol. Majority of these patterns are now built in to GitHub Copilot and other coding agents natively which validated the direction of our research.
 
 ## Evaluating The Experiment
 
@@ -82,3 +84,5 @@ Key benefits emerged from the evaluation:
 - **Enhanced Developer Autonomy**: Agents demonstrated significantly improved ability to progress through complex tasks with minimal intervention
 - **Accelerated Development Velocity**: The phased planning approach enabled faster development cycles, particularly for medium to large implementation tasks  
 - **Robust Context Preservation**: Breadcrumbs effectively maintained critical context across sessions and task switches, eliminating the need to restart from scratch
+
+The results of this evaluation and the breadcrumb protocol itself has now being contributed to the ISE AI Garden repository for continued use and experimentation.
