@@ -3,7 +3,7 @@
 A leadership narrative on turning a field workaround into a reusable operating pattern, from the Dropbear crew in ANZ ISE.
 
 ## Prologue: the day progress kept resetting
-I'm a engineer in the "Dropbear" crew, part of the ANZ engineering studio within Microsoft's Industry Solutions Engineering (ISE) team. Over 18+ months of working with large language models for code generation, I witnessed the same frustrations that plagued every engineer in the industry: inconsistent code accuracy and style, inability to understand nuanced context, and constantly falling off the context size cliff.
+I'm an engineer in the "Dropbear" crew, part of the ANZ engineering studio within Microsoft's Industry Solutions Engineering (ISE) team. Over 18+ months of working with large language models for code generation, I witnessed the same frustrations that plagued every engineer in the industry: inconsistent code accuracy and style, inability to understand nuanced context, and constantly falling off the context size cliff.
 
 The breaking point came while embedded with one of Australia's largest financial institutions during the early GPT-3.5 era. Their security constraints were unique: access to vetted models was only through their own model gateway via a web portal with a ChatGPT-like UX. No IDE integration. No session persistence initially. We were using GPT-3.5 to bootstrap Python FastAPI applications, sketch low-fidelity architectures, and generate class/function skeletons.
 
